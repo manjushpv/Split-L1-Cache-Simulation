@@ -1,0 +1,88 @@
+Read for Ownership from L2 001dde40
+Write to L2 001dde40
+Read for Ownership from L2 00fdde40
+Write to L2 00fdde40
+Read from L2 001dde40
+Read from L2 003ddf40
+Read from L2 001ddf40
+Read for Ownership from L2 00addf40
+Write to L2 00addf40
+Read for Ownership from L2 00bddf40
+Write to L2 00bddf40
+Read for Ownership from L2 000ddf40
+Write to L2 000ddf40
+Write to L2 001ddf40
+Read for Ownership from L2 002ddf40
+Write to L2 002ddf40
+Read for Ownership from L2 004ddf40
+Write to L2 004ddf40
+Read from L2 006ddf40
+Data Cache Contents
+14205   E 1 000         E 0 001
+30585   S 0 000
+30589   E 0 000
+46973   M 2 002         E 1 000         S 0 001
+63353   E 0 003
+63357   M 0 002
+
+Instruction Cache Contents
+14201   S 0 001
+14205   S 0 003
+
+
+Data Cache Contents
+14205   E 1 000         E 0 001
+30585   S 0 000
+30589   E 0 000
+46973   M 1 002         E 0 000
+63353   E 0 003
+63357   M 0 002
+
+Instruction Cache Contents
+14201   S 0 001
+14205   S 0 003
+
+
+Read from L2 00adde40
+Read for Ownership from L2 00cdde40
+Write to L2 00cdde40
+Read from L2 00ddde40
+Write to L2 00ddde40
+Read from L2 004dde40
+Cache Line not in L1 Data Cache with address 00adde40
+
+Write to L2 002ddf40
+Return data to L2 00bddf40
+Return data to L2 00cdde40
+Read from L2 002dde40
+Read from L2 003dde40
+Modified Line shouldn't be invalidated -> Send "Return Data to L2" before invalidating...
+
+Data Cache Contents
+14201   S 1 003         S 0 001
+14205   E 1 000         E 0 001
+30585   S 1 000         M 0 003
+30589   E 0 000
+46973   M 1 002         S 0 000
+63353   M 0 003
+63357   S 0 002
+
+Instruction Cache Contents
+14201   S 0 003         S 1 002
+14205   S 0 003
+
+
+Read from L2 00000000
+Invalid Memory Reference with n = 6
+
+Read for Ownership from L2 001ddf40
+Write to L2 001ddf40
+Input address 2deffffff has exceeded the permitted limit
+
+2defffg is an invalid address
+
+Data Cache Statistics:
+Read Count:0    Write Count:1   Hit Count:0     Miss Count:1    Hit Ratio:0
+
+Instruction Cache Statistics:
+Read Count:0    Hit Count:0     Miss Count:0    Hit Ratio:0
